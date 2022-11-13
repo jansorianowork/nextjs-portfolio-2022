@@ -52,7 +52,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: #E0920B;
 `;
 
 export const Intro = styled.div`
@@ -107,6 +107,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: #E0920B;
 font-size: 1.5rem;
 `

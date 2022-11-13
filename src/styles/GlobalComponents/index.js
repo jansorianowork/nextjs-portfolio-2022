@@ -75,7 +75,7 @@ export const SectionText = styled.p`
     padding-bottom: 16px;
   }
 `
-
+//E0920B - F46737
 export const SectionDivider = styled.div`
 
   width: 64px;
@@ -83,8 +83,9 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, #F46737 0%, #13ADC7 100%)' :
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
