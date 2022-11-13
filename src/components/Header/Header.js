@@ -39,7 +39,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/jansoriano-233984192/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://jansorianowork.github.io/basic-digital-resume/assets/resume.pdf">
+        <SocialIcons href="file/resume.pdf">
           <AiOutlineCloudDownload size="3rem"/>
         </SocialIcons>
       </Div3>
