@@ -50,7 +50,6 @@ export const projects = [
 export const TimeLineData = [
   { year: 2014, text: 'Started as a customer service representative at Amazon' },
   { year: 2016, text: 'Worked as a Software support at Talapoit Corp.' },
-  { year: 2020, text: 'Started as a Junior Developer in GDEC.' },
-  { year: 2020, text: 'Worked on multiple webstores with Viseo Asia and Montrichard Group', },
+  { year: 2020, text: 'Started as a Junior Developer in GDEC. Worked on multiple webstores with Viseo Asia and Montrichard Group', },
   { year: 2021, text: 'Started working as a Full-time Front-End Developer at Deloitte.', },
 ];
