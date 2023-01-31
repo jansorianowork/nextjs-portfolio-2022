@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Web development is a continuous learning, whether the intentions is to improve oneself or for the sake of a projects completion. That's why it'll never be boring because you'll have to learn new skills and knowledge on an on-going basis.
+      I graduated with a Bachelor's degree in Information Technology and started as a customer service support followed by a career in tech and became software support for an accounting company. After many years of procrastinating, I pursued a web developer position at a company that handles clients Shopify stores. Now I'm currently working at a company as a Front-end developer consultant.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
