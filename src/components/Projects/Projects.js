@@ -7,7 +7,7 @@ import { projects } from '../../constants/constants';
 const Projects = () => (
   <Section id="projects">
     <SectionDivider colorAlt/>
-    <SectionTitle main>Projects</SectionTitle>
+    <SectionTitle main>Companies</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
