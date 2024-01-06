@@ -44,9 +44,9 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>Progression</SectionTitle>
       <SectionText>
-      I graduated with a Bachelor's degree in Information Technology and started as a customer service support followed by a career in tech and became software support for an accounting company. After many years of procrastinating, I pursued a web developer position at a company that handles clients Shopify stores. Now I'm currently working at a company as a Front-end developer consultant.
+     Graduated with a Bachelor's degree in Information Technology and started as a customer service support, became a software support at TALAPOINT. Pursued a career in web development at GDEC, where I handled mostly Shopify stores. Currently working at DCPDC as a Front-end developer consultant.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

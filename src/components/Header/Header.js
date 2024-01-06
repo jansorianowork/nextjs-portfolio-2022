@@ -18,7 +18,7 @@ const Header = () =>  (
     <Div2>
       <li>
         <Link href="#projects">
-          <NavLink>Projects</NavLink>
+          <NavLink>Experience</NavLink>
         </Link>
       </li>
       <li>
@@ -28,7 +28,7 @@ const Header = () =>  (
       </li>        
       <li>
         <Link href="#about">
-          <NavLink>About</NavLink>
+          <NavLink>Progression</NavLink>
         </Link>
       </li>        
     </Div2>
@@ -39,7 +39,7 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/jansoriano-233984192/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="file/resume.pdf">
+        <SocialIcons href="file/JVSorianoCV2024.pdf">
           <AiOutlineCloudDownload size="3rem"/>
         </SocialIcons>
       </Div3>

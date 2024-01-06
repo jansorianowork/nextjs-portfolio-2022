@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section id="projects">
     <SectionDivider colorAlt/>
-    <SectionTitle main>Companies</SectionTitle>
+    <SectionTitle main>Experience</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
@@ -18,7 +18,7 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent >Stack</TitleContent>
+              <TitleContent >Technology</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;

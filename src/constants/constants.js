@@ -1,7 +1,7 @@
 export const projects = [
   {
-    title: 'DCPDC (Deloitte PH)',
-    description: "Assigned as a front-end developer analyst for Deloitte’s clients such as IOOF, Toyota UVM Platform and CPA AU. Part of the support team for Front-end developer bootcamp.",
+    title: 'DCPDC',
+    description: "Assigned as a front-end developer analyst for Deloitte’s clients. Part of the support team for Front-end developer bootcamp.",
       image: '/images/1.png',
       tags: ['Sass', 'ReactJs', 'Typescript', 'Jira'],
     source: 'https://google.com',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: "GDEC",
-    description: "Part of the web store development team that handles client’s web store, build the site depending on the clients preferred design and maintain it depending in the revisions.",
+    description: "Webstore developer that handles client’s Shopify store, build, customization, app and payment integration, and maintenance.",
       image: '/images/3.jpg',
       tags: ['Shopify', 'Javascript','CSS'],
     source: 'https://google.com',
@@ -20,7 +20,7 @@ export const projects = [
 
   {
     title: 'Talapoint',
-    description: "Keeps track on the concerns raised by the clients and relay it to the developers. Designs the UI of the system, and gather feedback from the clients.",
+    description: "Handles mainly client software concerns and technical issues. Designs the UI of the system, and gather feedback from the clients.",
     image: '/images/4.jpg',
     tags: ['visual studio .net', 'Photoshop'],
     source: 'https://google.com',
@@ -39,8 +39,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2014, text: 'Started as a customer service representative at Amazon' },
   { year: 2016, text: 'Worked as a Software support at Talapoit Corp.' },
-  { year: 2020, text: 'Started as a Junior Developer in GDEC. Worked on multiple webstores with Viseo Asia and Montrichard Group', },
-  { year: 2021, text: 'Started working as a Full-time Front-End Developer at Deloitte.', },
+  { year: 2020, text: 'Started as a Web Developer in GDEC.', },
+  { year: 2020, text: 'Freelance web developer at Viseo Asia and Montrichard Group.', },
+  { year: 2021, text: 'Started working as a Front-End Developer at DCPDC.', },
 ];

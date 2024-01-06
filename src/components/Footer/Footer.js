@@ -21,7 +21,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Transitioning to Web 3.0 digital identity one project at a time</Slogan>
+          <Slogan>"Clean code always looks like it was written by someone who cares." - Robert C. Martin</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://github.com/jansorianowork">
@@ -30,7 +30,7 @@ const Footer = () => {
         <SocialIcons href="https://www.linkedin.com/in/jansoriano-233984192/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="file/resume.pdf">
+        <SocialIcons href="file/JVSorianoCV2024.pdf">
           <AiOutlineCloudDownload size="3rem"/>
         </SocialIcons>
         </SocialContainer>
