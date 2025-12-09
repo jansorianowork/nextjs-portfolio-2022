@@ -1,5 +1,3 @@
-import Link from "next/link";
-import React from "react";
 import {
 	AiFillGithub,
 	AiOutlineCloudDownload,
@@ -12,14 +10,14 @@ import {
 	Div1,
 	Div2,
 	Div3,
-	NavLink,
+	Link1,
 	SocialIcons,
 } from "./HeaderStyles";
 
 const Header = () => (
 	<Container>
 		<Div1>
-			<Link
+			<Link1
 				href="/"
 				style={{
 					display: "flex",
@@ -28,17 +26,17 @@ const Header = () => (
 				}}
 			>
 				<DiTerminal size="3rem" /> <span>Jan Soriano</span>
-			</Link>
+			</Link1>
 		</Div1>
 		<Div2>
 			<li>
-				<Link href="#projects">Experience</Link>
+				<Link1 href="#projects">Experience</Link1>
 			</li>
 			<li>
-				<Link href="#tech">Technologies</Link>
+				<Link1 href="#tech">Technologies</Link1>
 			</li>
 			<li>
-				<Link href="#about">Progression</Link>
+				<Link1 href="#about">Progression</Link1>
 			</li>
 		</Div2>
 		<Div3>
