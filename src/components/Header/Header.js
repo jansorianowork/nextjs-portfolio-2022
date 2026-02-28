@@ -54,7 +54,7 @@ const Header = () => {
 					<SocialIcons href="https://www.linkedin.com/in/jansoriano-233984192/">
 						<AiFillLinkedin size="3rem" />
 					</SocialIcons>
-					<SocialIcons href="file/JVSorianoCV2024.pdf">
+					<SocialIcons href="file/jnsresume2026.pdf">
 						<AiOutlineCloudDownload size="3rem" />
 					</SocialIcons>
 				</IconGroup>
