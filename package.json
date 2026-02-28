@@ -18,5 +18,8 @@
 	},
 	"devDependencies": {
 		"cross-env": "^10.1.0"
+	},
+	"resolutions": {
+		"minimatch": "10.2.2"
 	}
 }
