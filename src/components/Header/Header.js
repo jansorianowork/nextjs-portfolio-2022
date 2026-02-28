@@ -3,7 +3,7 @@ import {
 	AiOutlineCloudDownload,
 	AiFillLinkedin,
 } from "react-icons/ai";
-import { DiTerminal } from "react-icons/di";
+import { IoFish } from "react-icons/io5";
 
 import {
 	Container,
@@ -25,7 +25,7 @@ const Header = () => (
 					color: "white",
 				}}
 			>
-				<DiTerminal size="3rem" /> <span>Jan Soriano</span>
+				<IoFish size="3rem" />
 			</Link1>
 		</Div1>
 		<Div2>
