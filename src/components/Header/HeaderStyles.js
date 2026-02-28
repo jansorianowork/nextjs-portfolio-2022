@@ -1,63 +1,78 @@
 import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
-export const Container = styled.div`
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: 1fr;
-	grid-column-gap: 2rem;
-	padding: 1rem;
+export const Container = styled.nav`
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	padding-top: 2rem;
+	flex-direction: row;
+	width: 100%;
 
-	@media ${(props) => props.theme.breakpoints.sm} {
-		display: grid;
-		grid-template-columns: repeat(5, 1fr);
-		grid-template-rows: repeat(2, 60px);
-		grid-column-gap: 0.5rem;
-		grid-row-gap: 0.5rem;
+	@media ${(props) => props.theme.breakpoints.md} {
+		align-items: flex-start;
+		justify-content: space-between;
 	}
 `;
-export const Div1 = styled.div`
-	grid-area: 1 / 1 / 2 / 2;
+
+export const MenuButton = styled.button`
+	background: none;
+	border: none;
+	color: rgba(255, 255, 255, 0.9);
+	font-size: 2.4rem;
+	padding: 0.25rem 0.5rem;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: 0.3s ease;
+
+	&:focus {
+		outline: none;
+	}
+	&:hover {
+		color: #fff;
+	}
+
+	@media ${(props) => props.theme.breakpoints.md} {
+		display: inline-flex;
+	}
+`;
+
+export const NavList = styled.div`
+	width: auto;
 	display: flex;
 	flex-direction: row;
-	align-content: center;
-	@media ${(props) => props.theme.breakpoints.sm} {
-		grid-area: 1 / 1 / 2 / 3;
-	}
-`;
-export const Div2 = styled.div`
-	grid-area: 1 / 2 / 2 / 5;
-	display: flex;
-	justify-content: space-around;
-	@media ${(props) => props.theme.breakpoints.sm} {
-		grid-area: 2 / 2 / 3 / 5;
-	}
-`;
-export const Div3 = styled.div`
-	grid-area: 1 / 5 / 2 / 6;
-	display: flex;
-	justify-content: space-around;
+	gap: 0;
+	margin-top: 0;
 	align-items: center;
-	@media ${(props) => props.theme.breakpoints.sm} {
-		align-items: center;
-		grid-area: 1 / 4 / 2 / 6;
+
+	@media ${(props) => props.theme.breakpoints.md} {
+		width: 100%;
+		display: ${({ open }) => (open ? "flex" : "none")};
+		flex-direction: column;
+		gap: 0.5rem;
+		margin-top: 0.5rem;
+		align-items: flex;
 	}
 `;
 
-// Navigation Links
-export const Link1 = styled.a`
+// simple link style used in nav
+export const NavText = styled.p`
 	font-size: 2rem;
 	line-height: 50px;
 	color: rgba(255, 255, 255, 0.75);
+	margin: 0 1rem;
 	transition: 0.4s ease;
+
 	&:hover {
 		color: #fff;
 		opacity: 1;
 		cursor: pointer;
 	}
-	@media ${(props) => props.theme.breakpoints.sm} {
-		padding: 0.5rem;
+
+	@media ${(props) => props.theme.breakpoints.md} {
+		margin: 0;
 	}
 `;
 
@@ -108,6 +123,13 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 `;
 
 // Social Icons
+
+export const IconGroup = styled.div`
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	flex-direction: row;
+`;
 
 export const SocialIcons = styled.a`
 	transition: 0.3s ease;

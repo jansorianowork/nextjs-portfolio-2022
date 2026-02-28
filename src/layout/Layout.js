@@ -1,8 +1,8 @@
-import React from "react";
 import Head from "next/head";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import { Container } from "./LayoutStyles";
+import { Section } from "../styles/GlobalComponents";
 
 export const Layout = ({ children }) => {
 	return (
@@ -16,7 +16,9 @@ export const Layout = ({ children }) => {
 				/>
 			</Head>
 			<Container>
-				<Header />
+				<Section>
+					<Header />
+				</Section>
 				<main>{children}</main>
 				<Footer />
 			</Container>
