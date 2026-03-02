@@ -38,14 +38,14 @@ const Header = () => {
 			</Link>
 
 			<NavList open={open}>
-				<Link href="#projects" passHref>
+				{/* <Link href="#projects" passHref>
 					<NavText onClick={closeMenu}>Experience</NavText>
-				</Link>
+				</Link> */}
 				<Link href="#tech" passHref>
-					<NavText onClick={closeMenu}>Technologies</NavText>
+					<NavText onClick={closeMenu}>Capabilities</NavText>
 				</Link>
 				<Link href="#about" passHref>
-					<NavText onClick={closeMenu}>Progression</NavText>
+					<NavText onClick={closeMenu}>Career</NavText>
 				</Link>
 				<IconGroup>
 					<SocialIcons href="https://github.com/jansorianowork">

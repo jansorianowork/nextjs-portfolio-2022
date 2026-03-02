@@ -11,11 +11,13 @@ const data = [
 	{ number: 10, text: "Shopify stores completed" },
 	{ number: 8, text: "Web Development courses Completed" },
 	{ number: 5, text: "Web techologies" },
-	{ number: 6, text: "Completed projects in Deloitte" },
+	{ number: 9, text: "Completed projects in Deloitte" },
 ];
 
 const Acomplishments = () => (
 	<Section>
+		<SectionDivider divider colorAlt />
+
 		<SectionTitle>Personal Achievements</SectionTitle>
 		<Boxes>
 			{data.map((card, index) => (

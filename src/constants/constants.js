@@ -39,8 +39,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: 'Worked as a Software support at Talapoit Corp.' },
-  { year: 2020, text: 'Started as a Web Developer in GDEC.', },
+  { year: 2014, text: 'Started my career as a customer support in CONCENTRIX.' },
+  { year: 2016, text: 'Worked as a Software support at TALAPOINT.' },
+  { year: 2020, text: 'Started as a Shopify Web Developer in GDEC.', },
   { year: 2020, text: 'Freelance web developer at Viseo Asia and Montrichard Group.', },
   { year: 2021, text: 'Started working as a Front-End Developer at DCPDC.', },
 ];
