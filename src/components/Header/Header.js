@@ -26,14 +26,8 @@ const Header = () => {
 	return (
 		<Container aria-label="Main navigation">
 			<Link href="/" passHref>
-				<NavText
-					style={{
-						display: "flex",
-						alignItems: "center",
-						color: "white",
-					}}
-				>
-					<IoFish size="3rem" />
+				<NavText>
+					<IoFish size="3rem" color="#ff7f00" />
 				</NavText>
 			</Link>
 
