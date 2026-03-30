@@ -35,12 +35,13 @@ const Header = () => {
 				{/* <Link href="#projects" passHref>
 					<NavText onClick={closeMenu}>Experience</NavText>
 				</Link> */}
-				<Link href="#tech" passHref>
-					<NavText onClick={closeMenu}>Capabilities</NavText>
-				</Link>
 				<Link href="#about" passHref>
 					<NavText onClick={closeMenu}>Career</NavText>
 				</Link>
+				<Link href="#tech" passHref>
+					<NavText onClick={closeMenu}>Skillset</NavText>
+				</Link>
+
 				<IconGroup>
 					<SocialIcons href="https://github.com/jansorianowork">
 						<AiFillGithub size="3rem" />
